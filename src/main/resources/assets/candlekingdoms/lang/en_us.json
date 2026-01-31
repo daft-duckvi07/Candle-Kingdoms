@@ -1,7 +1,7 @@
 {
-  "itemGroup.candlekingdoms": "Example Mod Tab",
-  "block.candlekingdoms.example_block": "Example Block",
-  "item.candlekingdoms.example_item": "Example Item"
+  "itemGroup.candlekingdoms": "Candle Kingdoms Tab",
+  "block.candlekingdoms.idk_block": "First Block Idk",
+  "item.candlekingdoms.idk": "First Item Idk"
 
 
 }

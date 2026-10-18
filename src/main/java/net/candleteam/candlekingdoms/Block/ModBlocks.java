@@ -1,11 +1,10 @@
 package net.candleteam.candlekingdoms.Block;
 
+import net.candleteam.candlekingdoms.Block.BWM.TownBlock;
 import net.candleteam.candlekingdoms.CandleKingdoms;
 import net.candleteam.candlekingdoms.Item.ModItems;
-import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -19,9 +18,13 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(CandleKingdoms.MOD_ID);
 
-    public static final DeferredBlock<Block> TOWN_BLOCK = registerBlock("town_block",
+    public static final DeferredBlock<Block> UTKA_BLOCK = registerBlock("utka_block",
             properties -> new Block(properties.strength(1f)
                     .requiresCorrectToolForDrops().sound(SoundType.CANDLE)));
+
+
+    public static final DeferredBlock<Block> TOWN_BLOCK = registerBlock("town",
+    properties -> new TownBlock(properties.strength(2F).requiresCorrectToolForDrops()));
 
 
 

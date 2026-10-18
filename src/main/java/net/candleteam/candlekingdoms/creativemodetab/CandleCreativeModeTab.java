@@ -26,7 +26,11 @@ public class CandleCreativeModeTab {
                     .title(Component.translatable("creativetab.candlekingdoms.candlekingdoms_items"))
                     .withTabsBefore(CreativeModeTabs.INGREDIENTS)
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept((ItemLike) ModBlocks.TOWN_BLOCK);
+
+
+
+                        output.accept((ItemLike) ModBlocks.UTKA_BLOCK);
+                        output.accept(ModBlocks.TOWN_BLOCK);
 //                        output.accept(ModItems.RAW_AZURITE);
 
 

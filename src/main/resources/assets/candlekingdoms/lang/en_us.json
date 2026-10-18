@@ -1,6 +1,5 @@
 {
-  "itemGroup.candlekingdoms": "Example Mod Tab",
-  "block.candlekingdoms.town_block": "Town",
+  "block.candlekingdoms.utka_block": "Utka",
   "item.candlekingdoms.example_item": "Example Item",
 
   "candlekingdoms.configuration.title": "Candle Kingdoms Configs",

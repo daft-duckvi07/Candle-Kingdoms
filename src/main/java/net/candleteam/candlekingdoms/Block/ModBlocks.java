@@ -23,7 +23,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.CANDLE)));
 
 
-    public static final DeferredBlock<Block> TOWN_BLOCK = registerBlock("town",
+    public static final DeferredBlock<Block> TOWN_BLOCK = registerBlock("town_block",
     properties -> new TownBlock(properties.strength(2F).requiresCorrectToolForDrops()));
 
 

@@ -1,6 +1,6 @@
 {
   "itemGroup.candlekingdoms": "Example Mod Tab",
-  "block.candlekingdoms.example_block": "Example Block",
+  "block.candlekingdoms.town_block": "Town",
   "item.candlekingdoms.example_item": "Example Item",
 
   "candlekingdoms.configuration.title": "Candle Kingdoms Configs",
@@ -9,5 +9,6 @@
   "candlekingdoms.configuration.items": "Item List",
   "candlekingdoms.configuration.logDirtBlock": "Log Dirt Block",
   "candlekingdoms.configuration.magicNumberIntroduction": "Magic Number Text",
-  "candlekingdoms.configuration.magicNumber": "Magic Number"
+  "candlekingdoms.configuration.magicNumber": "Magic Number",
+  "creativetab.candlekingdoms.candlekingdoms_items": "Candle Kingdoms' Stuff"
 }

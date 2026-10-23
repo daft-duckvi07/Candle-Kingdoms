@@ -8,7 +8,7 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class TownBlock extends Block {
-    public static final VoxelShape SHAPE = Block.box(0, 0, 0, 12, 10,12);
+    public static final VoxelShape SHAPE = Block.box(4, 0, 4, 12, 8,12);
 
     public TownBlock(Properties properties) {
         super(properties);

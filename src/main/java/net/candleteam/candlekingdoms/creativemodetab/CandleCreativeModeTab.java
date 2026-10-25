@@ -5,7 +5,6 @@ import net.candleteam.candlekingdoms.Block.ModBlocks;
 import net.candleteam.candlekingdoms.Item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
@@ -22,7 +21,7 @@ public class CandleCreativeModeTab {
 
 
     public static final Supplier<CreativeModeTab> CANDLE_KINGDOMS_TAB = CREATIVE_MODE_TABS.register("candle_kingdoms_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AZURITE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HMMM.get()))
                     .title(Component.translatable("creativetab.candlekingdoms.candlekingdoms_items"))
                     .withTabsBefore(CreativeModeTabs.INGREDIENTS)
                     .displayItems((itemDisplayParameters, output) -> {

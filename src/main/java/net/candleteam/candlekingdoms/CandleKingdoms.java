@@ -39,7 +39,7 @@ public class CandleKingdoms {
 
         NeoForge.EVENT_BUS.register(this);
         // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
+       // modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -48,13 +48,24 @@ public class CandleKingdoms {
 
     }
 
-    // Add the example block item to the building blocks tab
+    /* дОдає предмет (у цьому випадку сирий азуріт) до вкладки інгридієнти
+       додає блок (у цьому випадку утка блок) до вкладки блоки для будівництва
+
+       в цілому це не потрібно в нашому моді, але на випадок якщо треба буде
+       то ось готовий приклад
+
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            //event.accept(ModItems.TOWN);
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAW_AZURITE);
         }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.UTKA_BLOCK);
+        }
     }
+
+    */
+
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent

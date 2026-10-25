@@ -8,7 +8,6 @@ import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.data.PackOutput;
-import net.neoforged.fml.common.Mod;
 
 public class CandleModelProvider extends ModelProvider {
     public CandleModelProvider(PackOutput output) {
@@ -17,7 +16,7 @@ public class CandleModelProvider extends ModelProvider {
 
     @Override
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
-        itemModels.generateFlatItem(ModItems.AZURITE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.HMMM.get(), ModelTemplates.FLAT_ITEM);
 
 
         /* BLOCKS */

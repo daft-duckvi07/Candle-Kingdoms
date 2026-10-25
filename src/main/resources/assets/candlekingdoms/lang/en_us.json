@@ -1,6 +1,14 @@
 {
+  "item.candlekingdoms.hmmm": "Hmmm...",
+
+
   "block.candlekingdoms.utka_block": "Utka",
-  "item.candlekingdoms.example_item": "Example Item",
+  "block.candlekingdoms.town_block": "Town / Castle",
+
+
+
+
+
 
   "candlekingdoms.configuration.title": "Candle Kingdoms Configs",
   "candlekingdoms.configuration.section.candlekingdoms.common.toml": "Candle Kingdoms Configs",

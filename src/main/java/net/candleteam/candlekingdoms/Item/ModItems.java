@@ -9,8 +9,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CandleKingdoms.MOD_ID);
 
-    public static final DeferredItem<Item> AZURITE = ITEMS.registerSimpleItem("azurite");
-    public static final DeferredItem<Item> RAW_AZURITE = ITEMS.registerSimpleItem("raw_azurite");
+    public static final DeferredItem<Item> HMMM = ITEMS.registerSimpleItem("hmmm");
+
 
 
     public static void register(IEventBus eventBus) {

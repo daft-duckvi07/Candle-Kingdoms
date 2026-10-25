@@ -34,6 +34,13 @@ public class ModBlocks {
                     .strength(0.1F)
                     .sound(SoundType.CANDLE)
             ));
+    public static final DeferredBlock<Block> ARMY_BLOCK = registerBlock(
+            "army_block",
+            properties -> new TownBlock(properties
+                    .noCollision()
+                    .strength(0.1F)
+                    .sound(SoundType.CANDLE)
+            ));
 
 
 

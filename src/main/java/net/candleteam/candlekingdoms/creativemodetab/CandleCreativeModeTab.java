@@ -28,7 +28,7 @@ public class CandleCreativeModeTab {
 
 
 
-                        output.accept((ItemLike) ModBlocks.UTKA_BLOCK);
+                        output.accept(ModBlocks.UTKA_BLOCK);
                         output.accept(ModBlocks.TOWN_BLOCK);
                         output.accept(ModBlocks.ARMY_BLOCK);
 //                        output.accept(ModItems.RAW_AZURITE);

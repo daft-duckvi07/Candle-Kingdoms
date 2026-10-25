@@ -23,7 +23,7 @@ public class CandleModelProvider extends ModelProvider {
         /* BLOCKS */
         blockModels.createTrivialCube(ModBlocks.UTKA_BLOCK.get());
         blockModels.createNonTemplateModelBlock(ModBlocks.TOWN_BLOCK.get());
-
+        blockModels.createNonTemplateModelBlock(ModBlocks.ARMY_BLOCK.get());
 
 
     }

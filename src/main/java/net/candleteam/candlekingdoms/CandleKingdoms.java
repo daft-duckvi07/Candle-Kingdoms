@@ -37,7 +37,6 @@ public class CandleKingdoms {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-
         NeoForge.EVENT_BUS.register(this);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

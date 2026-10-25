@@ -1,5 +1,6 @@
 package net.candleteam.candlekingdoms.Block;
 
+import net.candleteam.candlekingdoms.Block.BWM.ArmyBlock;
 import net.candleteam.candlekingdoms.Block.BWM.TownBlock;
 import net.candleteam.candlekingdoms.CandleKingdoms;
 import net.candleteam.candlekingdoms.Item.ModItems;
@@ -24,17 +25,10 @@ public class ModBlocks {
 
 
     public static final DeferredBlock<Block> TOWN_BLOCK = registerBlock("town_block",
-    properties -> new TownBlock(properties.strength(2F).requiresCorrectToolForDrops()));
+            properties -> new TownBlock(properties.strength(2F).requiresCorrectToolForDrops()));
 
-
-
-
-
-
-
-
-
-
+    public static final DeferredBlock<Block> ARMY_BLOCK = registerBlock("army_block",
+            properties -> new ArmyBlock(properties.strength(2F).requiresCorrectToolForDrops()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);

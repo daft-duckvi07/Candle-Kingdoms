@@ -9,5 +9,8 @@
   "candlekingdoms.configuration.logDirtBlock": "Log Dirt Block",
   "candlekingdoms.configuration.magicNumberIntroduction": "Magic Number Text",
   "candlekingdoms.configuration.magicNumber": "Magic Number",
-  "creativetab.candlekingdoms.candlekingdoms_items": "Candle Kingdoms' Stuff"
+  "creativetab.candlekingdoms.candlekingdoms_items": "Candle Kingdoms' Stuff",
+
+  "key.category.candlekingdoms.candle_kingdoms_category": "Candle Kingdoms",
+  "key.candlekingdoms.moveunit": "Move Unit"
 }

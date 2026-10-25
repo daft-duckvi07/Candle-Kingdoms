@@ -1,6 +1,7 @@
 package net.candleteam.candlekingdoms;
 
 import net.candleteam.candlekingdoms.Block.ModBlocks;
+import net.candleteam.candlekingdoms.BlockEntity.ModBlockEntities;
 import net.candleteam.candlekingdoms.creativemodetab.CandleCreativeModeTab;
 import net.candleteam.candlekingdoms.Item.ModItems;
 import org.slf4j.Logger;
@@ -34,6 +35,7 @@ public class CandleKingdoms {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.BLOCK_ENTITY_TYPES.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
         // Register the item to a creative tab

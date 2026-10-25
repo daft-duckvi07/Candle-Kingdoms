@@ -1,5 +1,6 @@
 package net.candleteam.candlekingdoms.Block;
 
+import net.candleteam.candlekingdoms.Block.BWM.CandleTownBlock;
 import net.candleteam.candlekingdoms.Block.BWM.TownBlock;
 import net.candleteam.candlekingdoms.CandleKingdoms;
 import net.candleteam.candlekingdoms.Item.ModItems;
@@ -13,6 +14,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 
 import java.util.function.Function;
+import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
@@ -26,6 +28,16 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.CANDLE)));
 
+
+
+
+    public static final DeferredBlock<Block> CANDLE_TOWN = registerBlock(
+            "candle_town",
+            properties -> new CandleTownBlock(properties
+                    .noCollision()
+                    .strength(0.1F)
+                    .sound(SoundType.CANDLE)
+            ));
 
     public static final DeferredBlock<Block> TOWN_BLOCK = registerBlock(
             "town_block",

@@ -8,6 +8,7 @@ import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.data.PackOutput;
+import net.minecraft.world.level.block.Blocks;
 
 public class CandleModelProvider extends ModelProvider {
     public CandleModelProvider(PackOutput output) {
@@ -23,7 +24,7 @@ public class CandleModelProvider extends ModelProvider {
         blockModels.createTrivialCube(ModBlocks.UTKA_BLOCK.get());
         blockModels.createNonTemplateModelBlock(ModBlocks.TOWN_BLOCK.get());
         blockModels.createNonTemplateModelBlock(ModBlocks.ARMY_BLOCK.get());
-
+        blockModels.createCandleAndCandleCake(ModBlocks.CANDLE_TOWN.get(), Blocks.CANDLE_CAKE);
 
     }
 }

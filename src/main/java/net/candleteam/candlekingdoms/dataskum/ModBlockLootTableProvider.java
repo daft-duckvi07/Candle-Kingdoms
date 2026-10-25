@@ -35,6 +35,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.TOWN_BLOCK.get());
         dropSelf(ModBlocks.ARMY_BLOCK.get());
 
+        dropSelf(ModBlocks.CANDLE_TOWN.get());
+
     }
 
     protected LootTable.Builder createMultipleDrops(Block block, Item item, float minDrops, float maxDrops) {
